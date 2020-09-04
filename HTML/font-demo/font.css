@@ -1,0 +1,29 @@
+
+h1{
+    /*font-family: Georgia;*/
+    text-align: center;
+}
+
+p span{
+    font-size: 1.5em;
+}
+
+p{
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'Indie Flower', cursive;
+}
+
+p:nth-of-type(2){
+    text-decoration: underline;
+}
+
+p:nth-of-type(3){
+    border: 1px solid blue;
+    height: 30px;
+    width: 50%;
+    padding: 10px ;
+    padding-left: 50px;
+    margin-top: 50px;
+
+}
