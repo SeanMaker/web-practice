@@ -1,0 +1,44 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    border: 20px solid #bdc3c7;
+    margin:20px 15%;
+}
+
+.unit{
+    margin:20px;
+}
+
+.date{
+    margin-top: 30px;
+    color: #3498db;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.firstParagraph{
+    border-left:5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+p{
+    font-weight: bold;
+}
+
+
+h2{
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+hr{
+    margin: 0 20px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
