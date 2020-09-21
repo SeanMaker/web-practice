@@ -78,11 +78,6 @@ function changeColors(color){
     }
 }
 
-function pickColor(){
-    const random = Math.floor(Math.random() * colors.length);
-    // console.log(colors[random])
-    return colors[random];
-}
 
 function generateRandomColors(num){
     let colors=[]
@@ -103,6 +98,11 @@ function createRandomColor(){
     return `rgb(${r}, ${g}, ${b})`
 }
 
+function pickColor(){
+    const random = Math.floor(Math.random() * colors.length);
+    // console.log(colors[random])
+    return colors[random];
+}
 
 
 
