@@ -71,13 +71,6 @@ resetBtn.addEventListener('click',()=>{
     reset()
 })
 
-function changeColors(color){
-    for(let i = 0; i < squares.length; i++) {
-        //change each color to match given color
-        squares[i].style.background = color;
-    }
-}
-
 
 function generateRandomColors(num){
     let colors=[]
@@ -102,6 +95,13 @@ function pickColor(){
     const random = Math.floor(Math.random() * colors.length);
     // console.log(colors[random])
     return colors[random];
+}
+
+function changeColors(color){
+    for(let i = 0; i < squares.length; i++) {
+        //change each color to match given color
+        squares[i].style.background = color;
+    }
 }
 
 
