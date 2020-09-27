@@ -10,12 +10,6 @@ const modeBtns=document.querySelectorAll('.mode')
 
 init()
 
-function init(){
-    setupModeBtns()
-    setupSquares()
-    reset()
-
-}
 
 function setupModeBtns() {
     for(let i=0;i<modeBtns.length;i++){
@@ -103,6 +97,14 @@ function changeColors(color){
         //change each color to match given color
         squares[i].style.background = color;
     }
+}
+
+
+function init(){
+    setupModeBtns()
+    setupSquares()
+    reset()
+
 }
 
 
