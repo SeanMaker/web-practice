@@ -10,6 +10,12 @@ const modeBtns=document.querySelectorAll('.mode')
 
 init()
 
+function init(){
+    setupModeBtns()
+    setupSquares()
+    reset()
+
+}
 
 function setupModeBtns() {
     for(let i=0;i<modeBtns.length;i++){
@@ -43,6 +49,7 @@ function setupSquares(){
         })
     }
 }
+
 
 function reset(){
     colors = generateRandomColors(numSquares);
@@ -100,12 +107,7 @@ function changeColors(color){
 }
 
 
-function init(){
-    setupModeBtns()
-    setupSquares()
-    reset()
 
-}
 
 
 
