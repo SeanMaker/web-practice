@@ -38,6 +38,11 @@ p2Button.addEventListener('click',()=>{
     s2El.textContent=score_2
 })
 
+inputScore.addEventListener('input',(e)=>{
+    maxScore.textContent=e.target.value
+    topScore=e.target.value
+})
+
 resetButton.addEventListener('click',()=>{
     score_1=0
     score_2=0
@@ -48,10 +53,7 @@ resetButton.addEventListener('click',()=>{
     s2El.style.color='black'
 })
 
-inputScore.addEventListener('input',(e)=>{
-    maxScore.textContent=e.target.value
-    topScore=e.target.value
-})
+
 
 
 
