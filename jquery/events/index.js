@@ -9,10 +9,11 @@ $('h1').click(()=>{
     }
 )*/
 
-$('button').click((e)=>{
-    $(e.target).css('background','pink')
-})
 
 $('input[type="text"]').keypress(function(e){
     console.log(e)
+})
+
+$('button').click((e)=>{
+    $(e.target).css('background','pink')
 })
