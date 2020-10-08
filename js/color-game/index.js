@@ -51,6 +51,27 @@ function setupSquares(){
 }
 
 
+function reset(){
+    colors = generateRandomColors(numSquares);
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    resetBtn.textContent = "New Colors";
+    message.textContent = "";
+    for(var i = 0; i < squares.length; i++) {
+        if(colors[i]){
+            squares[i].style.display = "block";
+            squares[i].style.background = colors[i];
+        } else {
+            squares[i].style.display = "none";
+        }
+    }
+    header.style.backgroundColor = '#3498db';
+}
+
+resetBtn.addEventListener('click',()=>{
+    reset()
+})
+
 
 
 function createRandomColor(){
@@ -86,26 +107,7 @@ function changeColors(color){
 }
 
 
-function reset(){
-    colors = generateRandomColors(numSquares);
-    pickedColor = pickColor();
-    colorDisplay.textContent = pickedColor;
-    resetBtn.textContent = "New Colors";
-    message.textContent = "";
-    for(var i = 0; i < squares.length; i++) {
-        if(colors[i]){
-            squares[i].style.display = "block";
-            squares[i].style.background = colors[i];
-        } else {
-            squares[i].style.display = "none";
-        }
-    }
-    header.style.backgroundColor = '#3498db';
-}
 
-resetBtn.addEventListener('click',()=>{
-    reset()
-})
 
 
 
