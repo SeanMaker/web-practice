@@ -13,6 +13,12 @@ let score_2=0
 let topScore=5
 let gameOver=false
 
+
+inputScore.addEventListener('input',(e)=>{
+    maxScore.textContent=e.target.value
+    topScore=e.target.value
+})
+
 p1Button.addEventListener('click',()=>{
     if(score_1<topScore && gameOver===false){
         score_1+=1
@@ -38,10 +44,6 @@ p2Button.addEventListener('click',()=>{
     s2El.textContent=score_2
 })
 
-inputScore.addEventListener('input',(e)=>{
-    maxScore.textContent=e.target.value
-    topScore=e.target.value
-})
 
 resetButton.addEventListener('click',()=>{
     score_1=0
