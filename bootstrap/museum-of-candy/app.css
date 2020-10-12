@@ -35,15 +35,18 @@ body{
     }
 }
 
-.bodyGroup h2{
-    color: #ea1c2c;
-    font-weight: 100;
-}
+
 .bodyGroup p{
     color: #f498b8;
     font-weight: 100;
     line-height: 2;
 }
+
+.bodyGroup h2{
+    color: #ea1c2c;
+    font-weight: 100;
+}
+
 
 
 
