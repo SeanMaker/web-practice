@@ -8,14 +8,7 @@ const resetBtn=document.getElementById('reset')
 const header=document.querySelector('.header')
 const modeBtns=document.querySelectorAll('.mode')
 
-init()
 
-function init(){
-    setupModeBtns()
-    setupSquares()
-    reset()
-
-}
 
 function setupModeBtns() {
     for(let i=0;i<modeBtns.length;i++){
@@ -105,6 +98,15 @@ resetBtn.addEventListener('click',()=>{
     reset()
 })
 
+
+init()
+
+function init(){
+    setupModeBtns()
+    setupSquares()
+    reset()
+
+}
 
 
 
