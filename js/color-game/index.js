@@ -19,17 +19,7 @@ function init(){
 }
 
 
-function setupModeBtns() {
-    for(let i=0;i<modeBtns.length;i++){
-        modeBtns[i].addEventListener('click',()=>{
-            modeBtns[0].classList.remove('selected')
-            modeBtns[1].classList.remove('selected')
-            modeBtns[i].classList.add('selected')
-            modeBtns[i].textContent==='EASY'? numSquares=3:numSquares=6
-            reset()
-        })
-    }
-}
+
 
 function setupSquares(){
     for(let i=0; i<squares.length;i++){
@@ -48,6 +38,18 @@ function setupSquares(){
                 squares[i].style.backgroundColor="#232323";
                 message.textContent="Try Again!"
             }
+        })
+    }
+}
+
+function setupModeBtns() {
+    for(let i=0;i<modeBtns.length;i++){
+        modeBtns[i].addEventListener('click',()=>{
+            modeBtns[0].classList.remove('selected')
+            modeBtns[1].classList.remove('selected')
+            modeBtns[i].classList.add('selected')
+            modeBtns[i].textContent==='EASY'? numSquares=3:numSquares=6
+            reset()
         })
     }
 }
