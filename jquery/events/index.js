@@ -17,3 +17,4 @@ $('input[type="text"]').keypress(function(e){
 $('button').click((e)=>{
     $(e.target).css('background','pink')
 })
+
