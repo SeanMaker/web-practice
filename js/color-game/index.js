@@ -18,9 +18,6 @@ function init(){
 
 }
 
-
-
-
 function setupSquares(){
     for(let i=0; i<squares.length;i++){
         // console.log(squares[i].style.background)
@@ -75,11 +72,6 @@ function generateRandomColors(num){
     return colors
 }
 
-function pickColor(){
-    const random = Math.floor(Math.random() * colors.length);
-    // console.log(colors[random])
-    return colors[random];
-}
 
 function changeColors(color){
     for(let i = 0; i < squares.length; i++) {
@@ -87,6 +79,13 @@ function changeColors(color){
         squares[i].style.background = color;
     }
 }
+
+function pickColor(){
+    const random = Math.floor(Math.random() * colors.length);
+    // console.log(colors[random])
+    return colors[random];
+}
+
 
 function reset(){
     colors = generateRandomColors(numSquares);
