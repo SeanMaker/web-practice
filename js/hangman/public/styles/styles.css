@@ -19,6 +19,12 @@ body {
     min-height: 100vh;
 }
 
+
+p {
+    font-weight: 300;
+    margin-bottom: .8rem;
+}
+
 span {
     border-bottom: 1px solid #534f59;
     display: inline-block;
@@ -31,10 +37,6 @@ span {
     width: 2.4rem;
 }
 
-p {
-    font-weight: 300;
-    margin-bottom: .8rem;
-}
 
 .puzzle {
     display: flex;

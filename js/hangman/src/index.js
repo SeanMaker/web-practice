@@ -83,9 +83,3 @@ getCurrentCountry().then((country)=>{
 
 
 
-
-// getCountry('US').then((country)=>{
-//     console.log(country.name)
-// },(error)=>{
-//     console.log(`Error: ${error}`)
-// })
