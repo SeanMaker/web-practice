@@ -4,7 +4,7 @@ import getPuzzle from './requests'
 
 const puzzleEl=document.querySelector('#puzzle')
 const guessesEl=document.querySelector('#guesses')
-// const game1=new HangMan('car parts',10)
+
 let game1
 
 window.addEventListener('keypress',(e)=>{

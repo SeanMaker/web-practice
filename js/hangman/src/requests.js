@@ -15,6 +15,7 @@
     request.send()
 })*/
 
+
 //use XMLHttpRequest to get country
 /*const getCountry=(countryCode)=> new Promise((resolve,reject)=>{
     const requestCountry=new XMLHttpRequest()
@@ -51,9 +52,6 @@
         request.send()
     })
 }*/
-
-
-
 
 
 //async-await function to fetch data

@@ -1,8 +1,8 @@
+
 class HangMan{
     constructor(word,num){
         // this.word=word.toLowerCase().replace(/\s*/g,'').split('')
         this.word=word.toLowerCase().split('')
-        // console.log(this.word)
         this.remainingGuesses=num
         this.guessedLetter=[]
         this.status='playing'
