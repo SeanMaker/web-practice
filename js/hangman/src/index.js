@@ -35,51 +35,7 @@ document.querySelector('#reset').addEventListener('click',startGame)
 
 startGame()
 
-/*fetch('http://puzzle.mead.io/puzzle',{}).then((response)=>{
-    if(response.status===200){
-        return response.json()
-    }else{
-        throw new Error('Unable to fetch the puzzle')
-    }
-}).then((data)=>{
-    console.log(data.puzzle)
-}).catch((error)=>{
-    console.log(error)
-})*/
 
-/*getPuzzle('2').then((data)=>{
-    console.log(data.puzzle)
-}).catch((err)=>{
-    console.log(`Error: ${err}`)
-})*/
-
-/*getCountry('CN').then((country)=>{
-    console.log(country.name)
-}).catch((error)=> {
-    console.log(`Error: ${error}`)
-})
-getCurrentCountry().then((country)=>{
-    console.log(country.name)
-}).catch((error)=>{
-    console.log(`Error: ${error}`)
-})*/
-
-/*getLocation().then((data)=>{
-    return getCountry(data.country)
-}).then((country)=>{
-    console.log(country.name)
-}).catch((error)=>{
-    console.log(`Error: ${error}`)
-})*/
-
-
-/*getLocation().then((data)=>{
-    console.log(`City: ${data.city}`)
-    console.log(`Region: ${data.region}`)
-    console.log(`Country: ${data.country}`)
-},(err)=>{
-    console.log(err)
-})*/
 
 
 

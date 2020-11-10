@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 html {
     font-size: 62.5%;
 }
@@ -38,11 +39,6 @@ span {
 }
 
 
-.puzzle {
-    display: flex;
-    margin-bottom: 4.8rem;
-}
-
 .button {
     background: #7044a0;
     border: none;
@@ -58,3 +54,12 @@ span {
 .button:hover {
     background: #5F3A87;
 }
+
+.puzzle {
+    display: flex;
+    margin-bottom: 4.8rem;
+}
+
+
+
+
