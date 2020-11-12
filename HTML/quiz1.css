@@ -21,3 +21,21 @@ a[href="https://images.app.goo.gl/jhqfD8XTiDpfWPru8"]{
 ol li:nth-of-type(2){
     background: orangered;
 }
+
+.purple{
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: rebeccapurple wavy underline;
+    border: none;
+    color: #000;
+
+}
+
+a:hover{
+    color: #0f4c5c;
+    
+}

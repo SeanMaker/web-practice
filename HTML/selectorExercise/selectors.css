@@ -98,3 +98,18 @@ h1:hover{
 a:visited{
     color: gray;
 }
+
+header a{
+    font-size: 30px;
+    color: teal;
+}
+
+p a{
+    font-weight: bold;
+    color: blue;
+}
+
+#dislikes a{
+    font-weight: bold;
+    color: #e63946;
+}
