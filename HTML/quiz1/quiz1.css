@@ -60,6 +60,12 @@ p::after{
     color: green;
 }
 
+.card img{
+    width: 200px;
+    border: 5px solid rgb(236,183,191);
+    border-radius: 50%;
+}
+
 .card{
     width: 210px;
     border: 1px grey solid;
@@ -67,9 +73,5 @@ p::after{
     text-align: center;
 }
 
-.card img{
-    width: 200px;
-    border: 5px solid rgb(236,183,191);
-    border-radius: 50%;
-}
+
 
