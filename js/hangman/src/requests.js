@@ -78,6 +78,12 @@ const getCountry=async (countryCode)=>{
 
 }
 
+const getCurrentCountry=async()=>{
+    const location=await getLocation()
+    const country=await getCountry(location.country)
+    return country
+}
+
 const getLocation=async()=>{
     const response=await fetch('//ipinfo.io/json?token=a4bdde81886d0c')
     if(response.status===200){
@@ -88,10 +94,6 @@ const getLocation=async()=>{
     }
 }
 
-const getCurrentCountry=async()=>{
-    const location=await getLocation()
-    const country=await getCountry(location.country)
-    return country
-}
+
 
 export {getPuzzle as default}
