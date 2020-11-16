@@ -39,7 +39,7 @@ class HangMan{
         }
 
         if(!this.guessedLetter.includes(guess)){
-            // this.guessedLetter.push(guess)
+            
             this.guessedLetter=[...this.guessedLetter,guess]
         }
         if(!this.guessedLetter.includes(guess)||!this.word.includes(guess)){

@@ -1,4 +1,4 @@
-//use XMLHttpRequest to get puzzle
+//using XMLHttpRequest to get puzzle
 /*const getPuzzle=(wordCount)=> new Promise((resolve,reject)=>{
     const request= new XMLHttpRequest()
 
@@ -52,6 +52,7 @@
         request.send()
     })
 }*/
+
 
 
 //async-await function to fetch data
