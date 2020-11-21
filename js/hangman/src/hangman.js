@@ -33,7 +33,6 @@ class HangMan{
     }
 	
 	
-	
     makeGuess(guess){
         guess=guess.toLowerCase()
 
@@ -63,7 +62,6 @@ class HangMan{
     }
 }
 
-//
 
 export { HangMan as default }
 
