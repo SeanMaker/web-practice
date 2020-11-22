@@ -54,8 +54,7 @@
 }*/
 
 
-
-//async-await function to fetch data
+//async-await function 
 const getPuzzle=async (wordCount)=>{
     const response=await fetch(`//puzzle.mead.io/puzzle?wordCount=${wordCount}`)
 
