@@ -55,6 +55,7 @@
 
 
 //async-await function 
+
 const getPuzzle=async (wordCount)=>{
     const response=await fetch(`//puzzle.mead.io/puzzle?wordCount=${wordCount}`)
 
@@ -78,11 +79,6 @@ const getCountry=async (countryCode)=>{
 
 }
 
-const getCurrentCountry=async()=>{
-    const location=await getLocation()
-    const country=await getCountry(location.country)
-    return country
-}
 
 const getLocation=async()=>{
     const response=await fetch('//ipinfo.io/json?token=a4bdde81886d0c')
@@ -93,6 +89,14 @@ const getLocation=async()=>{
         throw new Error('Unable to fetch data')
     }
 }
+
+
+const getCurrentCountry=async()=>{
+    const location=await getLocation()
+    const country=await getCountry(location.country)
+    return country
+}
+
 
 
 

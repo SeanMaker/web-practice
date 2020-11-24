@@ -1,4 +1,5 @@
 
+
 class HangMan{
     constructor(word,num){
         // this.word=word.toLowerCase().replace(/\s*/g,'').split('')
@@ -60,6 +61,7 @@ class HangMan{
         }
     }
 }
+
 
 export { HangMan as default }
 
