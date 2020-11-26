@@ -15,7 +15,7 @@ section div{
     height: 50px;
     background-color: turquoise;
     margin: 10px 10px;
-    border-radius: 10%;
+    border-radius: 20%;
     transition: margin-left 2s;
 }
 
