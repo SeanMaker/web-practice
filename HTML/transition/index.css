@@ -3,6 +3,7 @@
     height: 300px;
     background-color: magenta;
     transition: background-color 1s, border-radius 2s ;
+    margin: 10px auto;
 }
 
 .circle:hover{
@@ -44,13 +45,20 @@ section div:nth-of-type(5){
 
 
 section h1{
-    background-color: orange;
+    position: relative;
+    left: 50px;
+    top:20px;
+    background-color: pink;
     color: #000;
     width: 200px;
-    text-align: center;
-    border: 3px solid black;
+    height: 200px;
+    text-align:center;
+    margin: 10px auto;
+
 }
 
 .rotated{
-    transform: rotate(45deg);
+    transform:  scale(0.5) translateX(-200px) skew(10deg,10deg);
+
 }
+
