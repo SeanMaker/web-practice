@@ -52,13 +52,13 @@ main{
 
 main .sidebar{
     background-color: #6930c3;
-    flex: 1 1 100px;
+    flex: 1 1 200px;
 
 }
 
 main .maincontent{
     background-color: #80ffdb;
-    flex: 2 1 600px;
+    flex: 2 1 500px;
 }
 
 @media (max-width: 800px) {
