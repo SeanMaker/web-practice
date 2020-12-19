@@ -61,11 +61,30 @@ main .maincontent{
     flex: 2 1 600px;
 }
 
-@media (max-width: 800px) {
+
+@media (min-width: 800px){
+    h1{
+        /*text-align: center;*/
+        color: red;
+    }
+}
+
+@media (min-width: 1000px){
+    h1{
+        /*text-align: center;*/
+        color: yellow;
+    }
+}
+
+@media (min-width: 1500px){
     h1{
         /*text-align: center;*/
         color: purple;
     }
 }
+
+
+
+
 
 
