@@ -41,4 +41,13 @@ ul{
     }
 }
 
+@media(max-width: 320px){
+    nav,nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
 
