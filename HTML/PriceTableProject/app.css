@@ -58,7 +58,7 @@ body{
 .panel{
     background-color: white;
     border-radius: 12px;
-    padding: 15px 26px;
+    padding: 15px 25px;
     width: 100%;
     max-width: 960px;
     display:flex;
@@ -76,7 +76,7 @@ body{
 }
 
 .pricing-img{
-    margin-bottom: 26px;
+    margin-bottom: 25px;
     max-width: 100%;
 }
 
@@ -87,7 +87,7 @@ body{
 }
 
 .pricing-features{
-    margin: 50px 0 26px;
+    margin: 50px 0 25px;
     color: #016ff9;
 }
 
@@ -116,7 +116,7 @@ body{
     border-radius: 12px;
     color:#348efe;
     display:inline-block;
-    padding: 15px 35px;
+    padding: 15px 36px;
     text-decoration: none;
     margin: 25px 0;
     transition:background-color 200ms ease-in-out;
