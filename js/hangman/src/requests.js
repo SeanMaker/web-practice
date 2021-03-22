@@ -54,7 +54,7 @@
 }*/
 
 
-//async-await function 
+//async-await
 
 const getPuzzle=async (wordCount)=>{
     const response=await fetch(`//puzzle.mead.io/puzzle?wordCount=${wordCount}`)
@@ -89,6 +89,7 @@ const getLocation=async()=>{
         throw new Error('Unable to fetch data')
     }
 }
+
 
 
 const getCurrentCountry=async()=>{

@@ -1,5 +1,6 @@
 
 
+
 class HangMan{
     constructor(word,num){
         // this.word=word.toLowerCase().replace(/\s*/g,'').split('')
@@ -49,6 +50,7 @@ class HangMan{
         }
         this.calculateStatus()
     }
+	
     get statusMessage(){
         if (this.status==='playing'){
             return `Guesses left: ${this.remainingGuesses}`
