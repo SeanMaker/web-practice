@@ -1,6 +1,4 @@
 
-
-
 class HangMan{
     constructor(word,num){
         // this.word=word.toLowerCase().replace(/\s*/g,'').split('')
@@ -59,11 +57,10 @@ class HangMan{
             return 'Great Work! You guessed the word.'
         }
         else if (this.status==='failed'){
-            return `Nice try! The word was "${this.word.join('')}"`
+            return `Good try! The word was "${this.word.join('')}"`
         }
     }
 }
-
 
 export { HangMan as default }
 
