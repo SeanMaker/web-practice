@@ -1,4 +1,4 @@
-//using XMLHttpRequest to get puzzle
+//using XMLHttpRequest to get puzzle  
 /*const getPuzzle=(wordCount)=> new Promise((resolve,reject)=>{
     const request= new XMLHttpRequest()
 
@@ -79,7 +79,7 @@ const getCountry=async (countryCode)=>{
 
 }
 
-
+//
 const getLocation=async()=>{
     const response=await fetch('//ipinfo.io/json?token=a4bdde81886d0c')
     if(response.status===200){
