@@ -78,8 +78,8 @@ const getCountry=async (countryCode)=>{
     }
 
 }
-
-//
+ 
+//fetch IPinfo
 const getLocation=async()=>{
     const response=await fetch('//ipinfo.io/json?token=a4bdde81886d0c')
     if(response.status===200){
