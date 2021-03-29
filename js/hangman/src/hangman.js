@@ -63,6 +63,8 @@ class HangMan{
     }
 }
 
+
+
 export { HangMan as default }
 
 
