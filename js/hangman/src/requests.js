@@ -98,7 +98,4 @@ const getCurrentCountry=async()=>{
     return country
 }
 
-
-
-
 export {getPuzzle as default}
