@@ -8,10 +8,12 @@ const maxScore=document.getElementById('maxScore')
 const s1El=document.getElementById('score_1')
 const s2El=document.getElementById('score_2')
 
+
 let score_1=0
 let score_2=0
 let topScore=5
 let gameOver=false
+let setScore=0
 
 
 inputScore.addEventListener('input',(e)=>{
