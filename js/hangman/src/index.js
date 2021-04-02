@@ -1,7 +1,9 @@
 import HangMan from './hangman'
 import getPuzzle from './requests'
 
+
 let game1
+let game2
 
 const puzzleEl=document.querySelector('#puzzle')
 const guessesEl=document.querySelector('#guesses')

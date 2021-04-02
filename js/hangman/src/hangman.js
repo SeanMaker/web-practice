@@ -58,7 +58,7 @@ class HangMan{
             return 'Great Work! You guessed the word.'
         }
         else if (this.status==='fail'){
-            return `Good try! The word was "${this.word.join('')}"`
+            return `Nice try! The word was "${this.word.join('')}"`
         }
     }
 }
