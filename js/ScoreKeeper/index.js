@@ -11,7 +11,7 @@ const s2El=document.getElementById('score_2')
 
 let score_1=0
 let score_2=0
-let topScore=5
+let topScore=7
 let gameOver=false
 let setScore=0
 
