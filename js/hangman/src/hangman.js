@@ -1,5 +1,4 @@
 
-
 class HangMan{
     constructor(word,num){
         // this.word=word.toLowerCase().replace(/\s*/g,'').split('')
@@ -49,6 +48,7 @@ class HangMan{
         }
         this.calculateStatus()
     }
+
 	
     get statusMessage(){
         if (this.status==='playing'){
@@ -62,7 +62,6 @@ class HangMan{
         }
     }
 }
-
 
 
 export { HangMan as default }

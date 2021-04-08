@@ -1,3 +1,4 @@
+
 //using XMLHttpRequest to get puzzle  
 /*const getPuzzle=(wordCount)=> new Promise((resolve,reject)=>{
     const request= new XMLHttpRequest()
@@ -55,7 +56,6 @@
 
 
 //async-await
-
 const getPuzzle=async (wordCount)=>{
     const response=await fetch(`//puzzle.mead.io/puzzle?wordCount=${wordCount}`)
 
